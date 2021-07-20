@@ -1,0 +1,124 @@
+.navbar1{
+    font-size: 20px;
+    background-color: #2a79ea;
+    /*padding: 10px;*/
+    position: sticky !important;
+    width: 100% !important;
+    /*padding-top: 20px !important;#0fb7ff*/
+    font-family: Bahnschrift;
+
+
+}
+.btn1{
+    font-size: 20px !important;
+    padding: 5px !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    /*margin-top: auto !important;*/
+    /*margin-bottom: auto !important;*/
+    /*margin: auto !important;*/
+    /*float: left !important;*/
+
+}
+
+#pricing-body .pad{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#pricing-body .text-blue{
+    color : blue;
+}
+#pricing-body .grayout {
+    opacity: 0.5;
+}
+
+#pricing-body .card-div{
+    margin: 20px 0 60px 0;
+    padding-top: 30px;
+}
+#pricing-body .card-deck-custom{
+    padding: 0 260px;
+}
+#pricing-body .card li{
+    font-size: 17px;
+}
+#pricing-body .card2{
+    border-color: green;
+}
+#pricing-body .card-custom:hover{
+    border-color: blue;
+}
+#pricing-body .card-custom{
+    width: 472px;
+    height: 719px;
+    transition: height .35s ;
+}
+
+#pricing-body .card-custom-container{
+    padding: 20px;
+}
+
+#pricing-body .card-img-custom{
+    width : 180px;
+    height: 125px;
+    padding: 10px 0;
+}
+#pricing-body #card li{
+    margin:2px;
+    text-align: left;
+}
+#pricing-body .div-payment p{
+    font-size: 16px;
+}
+#pricing-body .center-content{
+    align-content: center;
+    text-align: center;
+}
+#pricing-body .pixel-img{
+    height: 28px;
+    margin: 10px;
+}
+#pricing-body .img-face{
+    margin-left: 20px;
+    width : 65%;
+ }
+#pricing-body .faq-face{
+    width : 10%;
+}
+#pricing-body .div-myinfo{
+    background-image: linear-gradient(#f7f7f7,white);
+    padding: 40px 0;
+}
+#pricing-body .myinfo-content{
+    display: flex;
+    justify-content: center;
+}
+#pricing-body .div-faq{
+    background-image: linear-gradient(#f7f7f7,white);
+    padding: 40px 0;
+}
+#pricing-body .faq-ques{
+    display: flex;
+}
+#pricing-body .faq-ques div{
+    margin: 15px;
+}
+#pricing-body .faq-ques p{
+    font-size: 15px;
+}
+blockquote {
+    border:none;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+    font-size:23px;
+}
+
+
+
+#pricing-body .light-text{
+    font-size: 15px;
+    opacity: 0.6;
+}

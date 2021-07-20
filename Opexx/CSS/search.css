@@ -1,0 +1,67 @@
+.navbar1{
+    font-size: 20px;
+    background-color: #2a79ea;
+    /*padding: 10px;*/
+    position: sticky !important;
+    width: 100% !important;
+    /*padding-top: 20px !important;#0fb7ff*/
+    font-family: Bahnschrift;
+
+
+}
+
+.btn1{
+    font-size: 20px !important;
+    padding: 5px !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    /*margin-top: auto !important;*/
+    /*margin-bottom: auto !important;*/
+    /*margin: auto !important;*/
+    /*float: left !important;*/
+
+}
+
+
+.center-content{
+    align-content: center;
+    text-align: center;
+}
+ .form-custom input,select{
+    border-radius: 0px;
+    margin: 1px;
+    height : 50px;
+}
+.tab-search-div{
+    background-color: #5DBCD2;
+    padding: 0 0 15px 0;
+}
+.tab-search-div a{
+    color: white;
+}
+.search_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5DBCD2;
+}
+.search_nav li {
+    display: inline-flex;
+}
+
+li a {
+    display: block;
+    color: rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgba(0,0,0,1);
+}
+
+#winner_hide a {
+    width: 100%;
+}

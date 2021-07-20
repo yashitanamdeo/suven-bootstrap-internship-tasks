@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/styles.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../jquery.validate.js"></script>
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+h1 {
+  background-color:white;
+}
+
+body {
+  background: url('bloo.jpg');
+  background-size: 1440px auto;
+  background-repeat: no-repeat;
+  z-index=1;
+}
+form {
+  width:60%;
+  margin: 80px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+form p{
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  font-size: 21px;
+}
+
+
+
+
+
+input[type="text"]
+{
+    font-size:21px;
+}
+
+input[type="password"]
+{
+    font-size:21px;
+}
+</style>
+  <script>  
+    $(function() {  
+        $( "#datepicker-1" ).datepicker();  
+    });  
+  </script>
+<br><br><br><br><br><br><br>
+<center><form class="cmxform" id="commentForm" method="get" action="">
+<fieldset>
+<h2>L O G I N </h2>
+
+<p>
+  <label for="name">Username</label>
+  <input id="name" name="Name" minlength="3" type="text" placeholder="Enter Username" required/>
+</p>
+
+
+
+<p>
+  <label for="password">Password<span> </span></label>
+  <input id="password" class=""form-control password-lg" name="Password" minlength="5" type="password" placeholder="Enter password" required/>
+</p>
+
+
+<center><p>
+  <button type="submit" class="btn btn-success">Success</button>
+</p></center>
+</fieldset>
+</form>
+<script>
+$().ready(function() {
+  $("#commentForm").validate();
+});
+</script>
+</body>
+
+</html>

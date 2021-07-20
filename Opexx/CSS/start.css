@@ -1,0 +1,196 @@
+body{
+    font-family: Bahnschrift;
+    text-align: center;
+    overflow-x:hidden;    
+}
+
+.navbar1{
+    font-size: 20px;
+    background-color: #2a79ea;
+    /*padding: 10px;*/
+    position: sticky !important;
+    width: 100% !important;
+    /*padding-top: 20px !important;#0fb7ff*/
+    font-family: Bahnschrift;
+
+
+}
+
+.btn1{
+    font-size: 20px !important;
+    padding: 5px !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    /*margin-top: auto !important;*/
+    /*margin-bottom: auto !important;*/
+    /*margin: auto !important;*/
+    /*float: left !important;*/
+
+}
+
+/*.navbar-nav{*/
+    /*padding: 10px !important;*/
+/*}*/
+
+/*.ForOppexLogo {*/
+    /*font-size: 50px !important;*/
+    /*margin: auto !important;*/
+/*}*/
+
+/*.Forright{*/
+    /*float: right ;*/
+/*}*/
+
+/*forOtherComp{*/
+    /*font-size:50px !important ;*/
+/*}*/
+
+.ForImage{
+    width:100%;
+    height: 25%;
+    /*border-radius: 0px;*/
+
+}
+.jumbotron{
+    padding: 0px !important;
+    /*margin: 0% !important;*/
+    /*background-position-y: inherit !important;*/
+    height: 722px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+
+
+}
+
+/*.Forbody{*/
+    /*background-image: ;*/
+/*}*/
+
+/*.backgroungImage{*/
+    /*background-image: url("../img/Fantasy-City.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+/*.container{*/
+    /*padding: 0px !important;*/
+    /*border-radius: 0px !important;*/
+/*}*/
+.imagepebutton {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #5cb85c;
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forfirstpara{
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*background-color: #5cb85c;*/
+    color: white;
+    font-size: 50px;
+    /*color: black;*/
+    /*padding: 10px 50px;*/
+    border: none;
+    /*cursor: pointer;*/
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-family: Bahnschrift;
+}
+
+.forsecondpara{
+    position: absolute;
+    font-family: Bahnschrift;
+
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /*background-color: #5cb85c;*/
+    color: white;
+    font-size: 22px;
+    /*padding: 20px 80px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forlink{
+    position: absolute;
+    font-family: Bahnschrift;
+
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /*background-color: #5cb85c;*/
+    color: white;
+    font-size: 20px;
+    /*padding: 20px 80px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.icon{
+    position: inherit;
+    font-size: 70px;
+    margin: auto;
+    /*left: 45%;*/
+    color: #2571ce;
+    padding-bottom: 20px;
+}
+
+.ButtonForMore{
+    position: inherit !important;
+    font-size: 20px ;
+    margin: auto ;
+    background-color: #5cb85c ;
+    /*align-items: center !important;*/
+    /*left: 42% !important;*/
+    border: 5px solid #5cb85c;
+    border-radius: 3px;
+
+}
+
+
+.logo{
+    width: 40%;
+    /*height: 50%;*/
+    position: inherit;
+    margin: auto;
+
+}
+
+.photo{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.specialbutton{
+    border:2px solid green;
+    border-radius: 5px;
+    color: green;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: #f4f4f4;
+
+}
+
+
